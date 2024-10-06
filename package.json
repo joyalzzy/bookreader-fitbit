@@ -1,0 +1,31 @@
+{
+  "name": "bookreader",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.2.0-pre.1",
+    "@fitbit/sdk-cli": "~1.8.0-pre.10",
+    "fitbit-sdk-types": "^8.0.3"
+  },
+  "fitbit": {
+    "appUUID": "f531d6de-ed02-4d12-8de0-ed881df574b1",
+    "appType": "app",
+    "appDisplayName": "Bookreader",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "hera"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
